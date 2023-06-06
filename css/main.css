@@ -1,0 +1,176 @@
+body{
+    /*aca se declara el estilo de fondo*/
+    background-repeat: none;
+    background-size: 90%;
+    background-position: center;
+    background-image:url(https://images-ext-2.discordapp.net/external/f3ir5sy5YfRTNDSCexifq-gVgZ8CC0x6zy67z3mVIaY/https/wallpaperset.com/w/full/1/f/d/408353.jpg?width=709&height=473)
+    
+}
+h2 {text-emphasis-color: black;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius:35%;
+    margin-left: 85vh;
+    margin-right: 85vh;
+}
+h3 {background-color: aliceblue; 
+    width: fit-content;
+    
+}
+
+.Videoramones{ display:inline-block
+
+
+}
+
+.container{ background-color: aliceblue;
+    text-align: center;
+    opacity: 0.7;
+    
+}
+
+.Ramones{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius:35%;
+    margin-left: 85vh;
+    margin-right: 85vh;
+    pad
+}
+.intro{
+    margin: 20px;
+    opacity: 0.7;
+    background-color aliceblue;
+}
+nav{
+    height: 60px;
+    background-color:aliceblue; 
+    margin-left: 80vh;
+    margin-right: 80vh;
+    text-align: center;
+    opacity: 0.7;
+  }
+
+  nav ul{ 
+
+  
+     list-style: none;
+     display: inline-block;
+     padding: 10px;
+  }
+
+  nav ul li{
+      align-items: flex-start;
+      float: left;
+      margin-top:10px;
+      height: 25px;
+  }
+
+  nav ul li a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 25px;
+      margin: 10px;
+      
+  }
+
+  nav ul li a:hover{
+    background-color: black ;
+  }
+   
+  section { 
+    margin: 20vh;
+    opacity: 0.7;
+    background-color:aliceblue;
+    width: 900px;
+    text-align: center;
+    margin-left: 0px;
+  }
+ 
+   
+  
+  footer{
+        text-emphasis-color :black;
+        background-color:aliceblue;
+        text-align: center;
+        width: fit-content;
+        justify-content: center;
+        
+  }
+
+  @media (max-width:700px) { 
+    header { 
+        flex-direction: column;
+    }
+
+    nav { padding: 10px 0px;
+    }
+
+    div { flex-direction: column;
+
+    }
+    nav ul li a{ flex-direction: column;
+
+    }
+
+    section { flex-direction: column;
+
+    }
+    article { 
+         flex-direction: column;
+
+    }
+    .Videoramones {
+        flex-direction: column;
+        align-items: center;
+    }
+    }
+    
+  @media (max-width: 1200px){ 
+    header {
+        flex-direction: column;
+
+    }
+    nav {
+        padding: 10px 0px;
+    
+    }
+    section { 
+        flex-direction: column;
+}
+    article { 
+        flex-direction: column;
+    
+}
+    .Videoramones {
+        flex-direction: column;
+        align-items: center;
+}
+
+  }  
+   @media (max-width: 570px)
+   {
+
+     header{
+        flex-direction: column;
+
+    }
+    nav {
+        padding: 10px 0px;
+    
+    }
+    section { 
+        flex-direction: column;
+}
+    article { 
+        flex-direction: column;
+    
+}
+    .Videoramones {
+        flex-direction: column;
+        align-items: center;
+}
+    
+}
