@@ -3,7 +3,7 @@ body{
     background-repeat: none;
     background-size: 90%;
     background-position: center;
-    background-image:url(https://images-ext-2.discordapp.net/external/f3ir5sy5YfRTNDSCexifq-gVgZ8CC0x6zy67z3mVIaY/https/wallpaperset.com/w/full/1/f/d/408353.jpg?width=709&height=473)
+    background-image:url"https://images-ext-2.discordapp.net/external/f3ir5sy5YfRTNDSCexifq-gVgZ8CC0x6zy67z3mVIaY/https/wallpaperset.com/w/full/1/f/d/408353.jpg?width=709&height=473""
     
 }
 h2 {text-emphasis-color: black;
@@ -38,9 +38,9 @@ h3 {background-color: aliceblue;
     pad
 }
 .intro{
-    margin: 20px;
+    margin:20 %;
     opacity: 0.7;
-    background-color aliceblue;
+    background-color: aliceblue;
 }
 nav{
     height: 60px;
